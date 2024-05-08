@@ -1,0 +1,87 @@
+.hero {
+  padding: 120px;
+  width: 100%;
+  min-height: 100vh;
+  background: black;
+  color: white;
+}
+
+.request-container {
+  padding: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left-container {
+  padding: 40px 0px 40px 0px;
+}
+
+.left-container div {
+  display: flex;
+  flex-direction: column;
+}
+
+.request-form input {
+  padding: 16px;
+  border: none;
+  border-radius: 12px;
+  margin-top: 15px;
+  width: 70%;
+  outline: none;
+}
+
+.location-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.location-icon {
+  width: 30px;
+  position: absolute;
+  right: 20px;
+  top: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.request-btn {
+  margin-top: 20px;
+  width: 25%;
+  padding: 14px 25px;
+}
+
+.tow-image {
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .request-container {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .request-btn {
+    width: 100%;
+  }
+  .hero {
+    padding-top: 100px;
+    padding-bottom: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .request-form input {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .location-icon {
+    right: 190px;
+  }
+}
